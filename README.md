@@ -3,26 +3,9 @@
 
 Customer segmentation is a crucial aspect of marketing strategies, enabling businesses to better understand their customers and tailor their approaches to meet their needs effectively. This report presents a study on customer segmentation using k-means clustering, a popular unsupervised machine learning algorithm.
 
-2.	Table of Contents
-
-•	Abstract
-•	Introduction
-•	Existing Method
-•	Proposed Method with Architecture
-•	Methodology
-•	Implementation
-•	Conclusion
-
 3.	 Introduction 
 
 The mall industry has become increasingly competitive, necessitating a deeper understanding of customer behavior and preferences. Customer segmentation is a crucial aspect of marketing strategies to offer personalized experiences and targeted promotions. In this report, we explore the utilization of unsupervised learning techniques, specifically the k-means algorithm, to segment mall customers based on their demographic characteristics and shopping patterns. This report aims to present the proposed method, discuss its implementation, and analyze the obtained customer segments to provide actionable insights for mall owners and marketers.
-
-
-
-4.	Existing Method
-
-The existing methods for customer segmentation typically involve manual categorization based on demographic, geographic, or psychographic attributes. While these methods can provide some insights, they often lack precision and fail to capture the underlying patterns and relationships within the data. Moreover, manual segmentation can be subjective and time-consuming and not scale well with large datasets. Therefore, there is a need for an improved method that can overcome these limitations and provide more accurate and meaningful customer segments.
-
 
 5.	 Proposed method with Architecture
 
@@ -58,20 +41,6 @@ The K-Means algorithm involves:
 •	Assign each data point to the cluster for which the centroid is the closest.
   
 7.	 Implementation
-
-The proposed method was implemented using Python programming language (Version- 3.10.12), along with several libraries including Pandas, NumPy, SciPy, and scikit-learn. These libraries provided the necessary functionalities for data manipulation, numerical operations, and the k-means clustering algorithm.
-
-Used libraries and their version
-
-Pandas-> 1.5.3
-NumPy -> 1.22.4
-Matplotlib -> 3.7.1
-Seaborn -> 0.12.2
-SciPy -> 1.10.1
-Plotly -> 5.13.1
-Sklearn -> 1.2.2
-
-The implementation can be outlined as follows:
 
 •	Import the required libraries, including Pandas, NumPy, SciPy, and scikit-learn.
 •	Load the customer data into a Pandas DataFrame for further processing and analysis.
