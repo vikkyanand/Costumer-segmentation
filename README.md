@@ -1,4 +1,4 @@
-# Costumer-segmentation
+# Customer-segmentation
 1.	Abstract
 
 Customer segmentation is a crucial aspect of marketing strategies, enabling businesses to better understand their customers and tailor their approaches to meet their needs effectively. This report presents a study on customer segmentation using k-means clustering, a popular unsupervised machine learning algorithm.
